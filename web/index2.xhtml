@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: HP
+  Date: 19.12.2019
+  Time: 20:54
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+<h:head>
+    <title>ThirdLab</title>
+    <h:outputStylesheet name="style.css" library="css"/>
+    <h:outputScript library="js" name="functions.js" />
+</h:head>
+
+<h:body>
+    <div id="header">
+        <div id="mine">Подсекина Мария Викторовна <br /> группа P3214</div>
+        <div align="center">Вариант 214014</div>
+        <div align="right"><h:form><h:commandLink immediate="true" type="submit" action="index" value="К стартовой странице"/></h:form></div>
+    </div>
+    <div id="content">
+        <ui:insert>
+            <ui:include src="/tamplate/tampContent.xhtml"/>
+        </ui:insert>
+            <ui:insert>
+                <ui:include src="/tamplate/tampResults.xhtml"/>
+            </ui:insert>
+    </div>
+
+
+</h:body>
+
+</html>

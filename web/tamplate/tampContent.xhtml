@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: HP
+  Date: 19.12.2019
+  Time: 17:02
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:xlink="http://java.sun.com/jsf/composite"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+</h:head>
+
+<h:body>
+    <ui:composition>
+        <div id="smth">
+            <div id="changes">
+                <h:form id="newPointForm">
+                    <h:outputLabel for="x" value="Изменение X:"/>
+                    <h:inputText  id="x" label="X" style="display: none"   readonly="false" required="true" requiredMessage="Enter something" value="#{pointFactory.point.x}">
+                    </h:inputText>
+                    <div id="errorX" style="color: red"></div>
+                    <div ></div>
+                    <h:message id="mesX" for="x" style="color: red"/>
+                    <br/>
+                    <h:button styleClass="button" id="one_b" value="-5" onclick=" doAction(value,id); validX(value); e.preventDefault()"/>
+                    <h:button styleClass="button" id="two_b" value="-4" onclick="doAction(value,id); validX(value); e.preventDefault()"/>
+                    <h:button styleClass="button" id="three_b" value="-3" onclick="doAction(value,id); validX(value); e.preventDefault();"/>
+                    <h:button styleClass="button" id="four_b" value="-2" onclick="doAction(value,id); validX(value); e.preventDefault();"/>
+                    <h:button styleClass="button" id="five_b" value="-1" onclick="doAction(value,id); validX(value); e.preventDefault();"/>
+                    <h:button styleClass="button" id="six_b" value="0" onclick="doAction(value,id); validX(value); e.preventDefault();"/>
+                    <h:button styleClass="button" id="sev_b" value="1" onclick="doAction(value,id); validX(value); e.preventDefault();"/>
+                    <h:button styleClass="button" id="eight_b" value="2" onclick="doAction(value,id); validX(value); e.preventDefault();"/>
+                    <h:button styleClass="button" id="nine_b" value="3" onclick="doAction(value,id); validX(value); e.preventDefault();"/>
+                    <br/><br/>
+                    <h:outputLabel for="y" value="Изменение Y:"/>
+                    <h:inputText id="y" onkeyup="validY(this.value)" value="#{pointFactory.point.y}" required="true" requiredMessage="Enter something">
+                        <f:validateDoubleRange minimum="-3" maximum="3"/>
+                    </h:inputText>
+                    <div id="errorY" style="color: red"></div>
+
+                    <br/>
+                    <h:message id="mesY" for="y" style="color: red"/>
+                    <br/><br/>
+                    <h:outputLabel for="y" value="Изменение R:" />
+                    <h:inputText id="r" onkeyup="changeGrafic(this.value)" value="#{pointFactory.point.r}" required="true" requiredMessage="Enter something">
+                        <f:validateDoubleRange minimum="1" maximum="4"/>
+                    </h:inputText>
+                    <div id="errorR" style="color: red"></div>
+                    <br/>
+                    <h:message id="mesR" for="r" style="color: red"/>
+                    <br/><br/>
+                    <h:commandButton id="submit" value="Отправить" action="#{userDataTest.addPoint(pointFactory.point)}" onclick="f()">
+                        <f:ajax execute="newPointForm" render="pointTable @form"/>
+                    </h:commandButton>
+                    <h:commandButton id="clear" action="#{pointFactory.cleanPoint()}" onclick="cleanForm();" value="Очистить">
+                        <f:ajax render="@form"/>
+                    </h:commandButton>
+
+                </h:form>
+            </div>
+            <div id="graf">
+                <h:form id="draw">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="grafic" width="300px" height="300px">
+                        <symbol id="group">
+
+                            <text id="topOnTheEdge" x="155" y="35">R</text>
+                            <text id="topMiddle" x="155" y="95">R/2</text>
+
+                            <text id="downOnTheEdge" x="155" y="274">-R</text>
+                            <text id="downMiddle" x="155" y="214">-R/2</text>
+
+                            <text id="rightMiddle" x="200" y="145">R/2</text>
+                            <text id="rightOnTheEdge" x="265" y="145">R</text>
+
+                            <text id="leftMiddle" x="75" y="145">-R/2</text>
+                            <text id="leftOnTheEdge" x="20" y="145">-R</text>
+
+                            <rect id="rect" height="60" width="120" x="30" y="90" fill="#0489B1" opacity="0.7" stroke="none"/>
+                            <polygon points="150 150, 150 270, 210 150" fill="#0489B1" opacity="0.7" stroke="none"/>
+                            <path d="M150,150 L90,150 A60,60 1 0,0 150,210 z"/>
+
+                            <line x1="150" y1="0" x2="150" y2="300"/>
+                            <line x1="0" y1="150" x2="300" y2="150"/>
+
+                            <line x1="210" y1="147" x2="210" y2="153"/>
+                            <line x1="270" y1="147" x2="270" y2="153"/>
+                            <line x1="90" y1="147" x2="90" y2="153"/>
+                            <line x1="30" y1="147" x2="30" y2="153"/>
+
+                            <line x1="147" y1="210" x2="153" y2="210"/>
+                            <line x1="147" y1="270" x2="153" y2="270"/>
+                            <line x1="147" y1="90" x2="153" y2="90"/>
+                            <line x1="147" y1="30" x2="153" y2="30"/>
+
+                            <line x1="153" y1="3" x2="150" y2="0"/>
+                            <line x1="147" y1="3" x2="150" y2="0"/>
+
+                            <line x1="297" y1="147" x2="300" y2="150"/>
+                            <line x1="297" y1="153" x2="300" y2="150"/>
+                        </symbol>
+                        <use xlink:href="#group"/>
+                    </svg>
+                    <h:inputHidden id="xSVG" value="#{pointFactory.point.x}"/>
+                    <h:inputHidden id="ySVG" value="#{pointFactory.point.y}"/>
+                    <h:inputHidden id="rSVG" value="#{pointFactory.point.r}"/>
+                    <h:commandLink style="display: none" id="submitSVG" action="#{userDataTest.addPoint(pointFactory.point)}">
+                        <f:ajax execute="draw" render="pointTable"/>
+                    </h:commandLink>
+                </h:form>
+            </div>
+        </div>
+    </ui:composition>
+</h:body>
+
+</html>

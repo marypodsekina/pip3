@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="pipets:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91ee6c4b-d93c-4395-a77a-59ecab9bedf0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/pipets_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/312c506c-aed7-4c42-95a2-f0c001784718.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/312c506c-aed7-4c42-95a2-f0c001784718/storage_v2/_src_/schema/PUBLIC.aaZQjQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/312c506c-aed7-4c42-95a2-f0c001784718/storage_v2/_src_/schema/S264474.tOcIfw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/312c506c-aed7-4c42-95a2-f0c001784718/storage_v2/_src_/schema/SYS.rUIBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/312c506c-aed7-4c42-95a2-f0c001784718/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_api_2_2_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_impl_2_2_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_interceptor_javax_interceptor_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_weld_servlet_weld_servlet_shaded_3_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/WEB-INF/classes/InputTextValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/WEB-INF/classes/META-INF/pipets.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/WEB-INF/classes/MyValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/WEB-INF/classes/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/WEB-INF/classes/PointFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/WEB-INF/classes/UserData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/WEB-INF/classes/UserDataTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/WEB-INF/faces-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/WEB-INF/lib/ojdbc8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/index2.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/resources/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/resources/js/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/resources/js/onload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/tamplate/tampContent.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war/tamplate/tampResults.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pipets.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InputTextValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PointFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/InputTextValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MyValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/PointFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/UserData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/UserDataTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index2.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/js/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/js/onload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tamplate/tampContent.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tamplate/tampResults.xhtml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@orbis" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@orbis" type="feb32156:DbDataSourceImpl" />
+        <item name="S264474: schema" type="3abd1b6a:OraImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@orbis" type="feb32156:DbDataSourceImpl" />
+        <item name="S264474: schema" type="3abd1b6a:OraImplModel$Schema" />
+        <item name="POINTS: table" type="942f455b:OraImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="jsf" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/web/tamplate/tampContent.xhtml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1VOl8URzN0tlPGUeI9z7FsPZkfH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql&#10;oracle" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pipets" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41034484" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\pipets\web\WEB-INF" />
+      <recent name="C:\Users\HP\IdeaProjects\pipets\web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="JBoss 18.0.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 18.0.1.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pipets_war_exploded/index.xhtml" />
+      <deployment>
+        <artifact name="pipets:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="main-server-group" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52224" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="pipets:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9590a2db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9590a2db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7d912172" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9590a2db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@208954b6" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91ee6c4b-d93c-4395-a77a-59ecab9bedf0" name="Default Changelist" comment="" />
+      <created>1577131862975</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577131862975</updated>
+      <workItem from="1577131866482" duration="19472000" />
+      <workItem from="1578075055974" duration="126756000" />
+      <workItem from="1578836667068" duration="2103000" />
+      <workItem from="1578857197120" duration="3800000" />
+      <workItem from="1578918908161" duration="9803000" />
+      <workItem from="1578939945318" duration="4873000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

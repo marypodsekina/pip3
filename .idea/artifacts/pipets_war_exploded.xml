@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="pipets:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/pipets_war_exploded.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="pipets/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="pipets" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="ojdbc8" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

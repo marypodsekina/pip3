@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<head>
+
+</head>
+<body>
+<ui:composition>
+        <h2>История запросов</h2><h:commandButton onclick="removePoints()" value="Очистить историю" action="#{userDataTest.cleanHistory(pointFactory.point.userName)}">
+        <f:ajax render="pointTable"/>
+    </h:commandButton>
+        <h:commandLink id="render" style="display: none"><f:ajax render="pointTable"/></h:commandLink>
+        <h:panelGroup id="pointTable">
+            <h:dataTable value="#{userDataTest.getPoints(pointFactory.point.userName)}" rendered="#{userDataTest.getCount(pointFactory.point.userName)>0}" var="point" columnClasses="xTable,yTable,rTable,Hit">
+                <h:column>
+                    <f:facet name="header">Координата X</f:facet>
+                    #{point.x}
+                </h:column>
+
+                <h:column id="yTable">
+                    <f:facet name="header">Координата Y</f:facet>
+                    #{point.y}
+                </h:column>
+
+                <h:column id="rTable">
+                    <f:facet name="header">Радиус R</f:facet>
+                    #{point.r}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Попадание</f:facet>
+                    #{point.inArea}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Дата создания</f:facet>
+                    #{point.strDate}
+                </h:column>
+            </h:dataTable>
+        </h:panelGroup>
+</ui:composition>
+</body>
+</html>
